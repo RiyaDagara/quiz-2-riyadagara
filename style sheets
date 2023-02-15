@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Sheets demo</title>
+</head>
+<body bgcolor="salmon">
+    <style type = "text/css">
+
+        li.one {list-style-type:upper-roman}
+        
+        li.two {list-style-type:upper-alpha}
+        
+        li.three{list-style-type:decimal}
+        
+    </style>
+    <h1>Internal Style Sheet</h1>
+    <ol>
+        <li class="one">Internal</li>
+        <li class="two">External</li>
+        <li class="three">Inline</li>
+    </ol>
+    
+
+</body>
+
+</html>
